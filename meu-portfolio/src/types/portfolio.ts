@@ -2,15 +2,17 @@ export type NivelHabilidades = "básico" | "intermediário" | "avançado"
 
 export type Habilidade = {
     id: number;
-    nome: String;
+    nome: string;
     nivel: NivelHabilidades;
 }
 
 export type Projeto = {
     id: number;
-    titulo: String;
-    descricao: String;
-    tecnologias: String[];
+    titulo: string;
+    descricao: string;
+    tecnologias: string[];
+    emAndamento?: boolean;
+    repoUrl?: string;
 }
 
 export type RedeSocial = {

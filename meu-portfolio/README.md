@@ -1,32 +1,48 @@
-# React + TypeScript + Vite
+# Meu Portfólio
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+Projeto de portfólio pessoal desenvolvido para a disciplina de Tecnologias de Interface Web, no curso de Análise e Desenvolvimento de Sistemas (IFTM - Campus Uberaba Parque Tecnológico).
 
-Currently, two official plugins are available:
+## Preview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+![Preview do projeto](./public/preview.png)
 
-## React Compiler
+## Tecnologias utilizadas
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- React
+- TypeScript
+- Tailwind CSS
+- Vite
 
-## Expanding the Oxlint configuration
+## O que tem na página
 
-If you are developing a production application, we recommend enabling type-aware lint rules by installing `oxlint-tsgolint` and editing `.oxlintrc.json`:
+- Cabeçalho com apresentação, foto e links
+- Seção "Sobre mim"
+- Lista de habilidades com nível de conhecimento
+- Cards com meus projetos
+- Área de contato
 
-```json
-{
-  "$schema": "./node_modules/oxlint/configuration_schema.json",
-  "plugins": ["react", "typescript", "oxc"],
-  "options": {
-    "typeAware": true
-  },
-  "rules": {
-    "react/rules-of-hooks": "error",
-    "react/only-export-components": ["warn", { "allowConstantExport": true }]
-  }
-}
+## Como rodar o projeto
+
+1. Clone o repositório:
+```bash
+git clone [https://github.com/Joanan01/meu-portfolio.git](https://github.com/Joanan01/meu-portfolio.git)
 ```
 
-See the [Oxlint rules documentation](https://oxc.rs/docs/guide/usage/linter/rules) for the full list of rules and categories.
+2. Entre na pasta do projeto:
+```bash
+cd meu-portfolio
+```
+
+3. Instale as dependências:
+```bash
+npm install
+```
+
+4. Rode o projeto:
+```bash
+npm run dev
+```
+
+## Autor
+
+Feito por **Joanan Aquino dos Santos**.
